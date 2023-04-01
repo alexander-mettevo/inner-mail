@@ -1,0 +1,35 @@
+.header {
+  &__top {
+    background-color: $green;
+    padding: 5px 0 11px;
+  }
+
+  &__bottom {
+    background-color: $dark-green;
+
+
+    a {
+      color: $white;
+      line-height: 50px;
+      font-size: 16px;
+      font-family: 'PlayfairDisplay';
+    }
+  }
+
+  &__logo {
+    display: inline-block;
+    padding: 5px 0 11px;
+  }
+
+  &__column {
+    padding-bottom: 0 !important;
+  }
+}
+
+.footer {
+  background-color: $dark-green;
+
+  * {
+    color: $white !important;
+  }
+}
