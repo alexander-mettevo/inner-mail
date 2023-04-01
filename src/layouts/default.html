@@ -8,22 +8,65 @@
   <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
   <title>{{subject}}</title>
   <!-- <style> -->
 </head>
 <body>
 <span class="preheader">{{description}}</span>
+
 <table class="body">
   <tr>
     <td class="center" align="center" valign="top">
       <center>
-        {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
-        {{> body}}
+        <container class="">
+          <wrapper class="header__top text-center">
+            <center>
+              <a class="header__logo" href="https://chat.openai.com/">
+                <img width="123" height="36"
+                     src="https://innercamp.mettevo.com/wp-content/themes/innercamp/img/logo.svg"
+                     alt="logo">
+              </a>
+            </center>
+          </wrapper>
+          <wrapper class="header__bottom">
+            <columns class="header__column" small="4"><a href="/">Teacher Trainings</a></columns>
+            <columns class="header__column" small="4"><a href="/">Virtual Workshops</a></columns>
+            <columns class="header__column" small="4"><a href="/">Onsite Retreats</a></columns>
+          </wrapper>
+          {{!-- Pages you create in the src/pages/ folder are inserted here when the flattened emails are created. --}}
+          {{> body}}
+          <wrapper class="footer">
+            <row>
+              <a href="" class="footer__link"></a>
+              <a href="" class="footer__link"></a>
+              <a href=""
+                                                                                         class="footer__link"></a><a
+                    href="" class="footer__link"></a>
+            </row>
+            <row>
+              <p>
+                You have received this email because you have subscribed to our list for all the updates.
+              </p>
+
+              <p>
+                No longer want to receive this email? Unsubscribe
+              </p>
+            </row>
+            <row>Ⓒ 2023 InnerCamp</row>
+          </wrapper>
+        </container>
       </center>
     </td>
   </tr>
 </table>
 <!-- prevent Gmail on iOS font size manipulation -->
-<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+<div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+</div>
 </body>
 </html>

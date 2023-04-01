@@ -16,7 +16,7 @@
 // 1. Global
 // ---------
 
-$primary-color: #2199e8;
+$primary-color: #DB6E40;
 $secondary-color: #777777;
 $success-color: #3adb76;
 $warning-color: #ffae00;
@@ -27,7 +27,9 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $pre-color: #ff6908;
-$global-width: 580px;
+$green: #424F44;
+$dark-green: #283229;
+$global-width: 600px;
 $global-width-small: 95%;
 $global-gutter: 16px;
 $body-background: $light-gray;
@@ -60,7 +62,7 @@ $global-font-weight: normal;
 $header-color: inherit;
 $global-line-height: 1.3;
 $global-font-size: 16px;
-$body-line-height: $global-line-height;
+$body-line-height: 26.43px;
 $header-font-family: $body-font-family;
 $header-font-weight: $global-font-weight;
 $h1-font-size: 34px;
@@ -97,7 +99,7 @@ $stat-font-size: 40px;
 $button-padding: (
   tiny: 4px 8px 4px 8px,
   small: 5px 10px 5px 10px,
-  default: 8px 16px 8px 16px,
+  default: 8px 30px 8px 30px,
   large: 10px 20px 10px 20px,
 );
 $button-font-size: (
@@ -112,7 +114,7 @@ $button-font-weight: bold;
 $button-margin: 0 0 $global-margin 0;
 $button-background: $primary-color;
 $button-border: 2px solid $button-background;
-$button-radius: $global-radius;
+$button-radius: 100px;
 $button-rounded: $global-rounded;
 
 // 6. Callout
