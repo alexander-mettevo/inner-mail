@@ -28,8 +28,27 @@
 
 .footer {
   background-color: $dark-green;
+  text-align: center;
+
+  & > tbody > tr > td {
+    padding: 0 30px;
+  }
 
   * {
     color: $white !important;
+  }
+
+  &__links td {
+    text-align: center;
+  }
+
+  &__link {
+    display: inline-block;
+    padding: 0 4.5px;
+  }
+
+  &__bottom {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
