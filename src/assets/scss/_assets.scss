@@ -1,3 +1,11 @@
 .row-spacing {
   padding: 0 35px;
 }
+td.large-12.last.padding,
+th.large-12.last.padding {
+  padding: 0;
+}
+td.large-12.row-spacing,
+th.large-12.row-spacing {
+  padding: 0 35px;
+}
