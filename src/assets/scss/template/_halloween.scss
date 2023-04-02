@@ -84,7 +84,6 @@ p {
 .inner {
   position: relative;
   padding: 37px 35px;
-  width: 100%;
 
   &.bg-dark::after {
     position: absolute;
@@ -95,6 +94,11 @@ p {
     top: 0;
     left: 0;
     z-index: 0;
+  }
+
+  &.flex {
+    display: flex;
+    justify-content: space-between;
   }
 
   .content-block {
