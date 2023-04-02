@@ -1,0 +1,47 @@
+.bg {
+  &_beige {
+    background-color: $beige;
+  }
+
+  &_green {
+    background-color: $green;
+  }
+
+  &_dark-green {
+    background-color: $dark-green;
+  }
+
+  &_gold {
+    background-color: $gold;
+  }
+
+  &_orange {
+    background-color: $orange;
+  }
+}
+
+.color {
+  &_gold {
+    color: $gold;
+  }
+
+  &_white {
+    color: $white;
+  }
+
+  &_black {
+    color: $black;
+  }
+
+  &_dark-green {
+    color: $dark-green;
+  }
+
+  &_green {
+    color: $green;
+  }
+
+  &_orange {
+    color: $orange;
+  }
+}
