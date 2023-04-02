@@ -1,0 +1,61 @@
+.first-newsletter-signup-block {
+  height: 838px;
+}
+.content-newsletter {
+  position: relative;
+
+  h2 {
+    margin-bottom: 25px;
+  }
+  img {
+    border-radius: 17px;
+  }
+}
+.open-h2 {
+  text-align: center;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 59px;
+  letter-spacing: 0.005em;
+}
+.middle-coupon-row {
+  height: 71px;
+}
+.coupon-block p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: #424F44;
+  a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height:26px;
+    letter-spacing: 0.005em;
+  }
+}
+.orange-link {
+  background: #B68742;
+  padding: 8px 30px;
+  border-radius: 100px;
+  color: $white;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+
+  &:hover {
+    color: $white;
+  }
+}

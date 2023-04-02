@@ -84,6 +84,7 @@ p {
 .inner {
   position: relative;
   padding: 37px 35px;
+  width: 100%;
 
   &.bg-dark::after {
     position: absolute;
@@ -119,6 +120,11 @@ p {
       content: '';
       background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0.01453081232492992) 100%);
     }
+  }
+
+  &.middle {
+    max-width: 458px;
+    margin: 0 auto;
   }
 }
 .row-links {
